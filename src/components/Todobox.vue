@@ -3,7 +3,7 @@
        <h4 class="title">Vue-Todobox</h4>
        <Todoinput/>
        <Todolist/>
-       <div v-if="dataList.length == 0" class="title">暂无数据</div>
+       <div v-if="dataList.length == 0" class="title">暂无数据...</div>
    </div>
 </template>
 <script>
